@@ -1,15 +1,12 @@
 {
   "name": "p2pspider",
-  "description": "DHT Spider + BitTorrent Client = P2P Spider",
-  "version": "0.0.8",
+  "description": "bthh p2pspider, 抓到数据后存入 mongodb, fork 自 Fuck-You-GFW/p2pspider",
+  "version": "0.0.1",
   "author": {
-    "name": "Fuck-You-GFW"
+    "name": "KenZhan"
   },
-  "repository": "https://github.com/Fuck-You-GFW/p2pspider",
+  "repository": "https://github.com/zhanjiaxia/p2pspider",
   "main": "lib/index.js",
-  "bugs": {
-    "url": "https://github.com/Fuck-You-GFW/p2pspider/issues"
-  },
   "scripts": {
     "start": "node run/run.js"
   },
@@ -18,11 +15,5 @@
     "bitfield": "^1.1.2",
     "mongoose": "^4.4.11"
   },
-  "keywords": [
-    "torrent",
-    "bittorrent",
-    "p2p",
-    "dht"
-  ],
   "license": "MIT"
 }
